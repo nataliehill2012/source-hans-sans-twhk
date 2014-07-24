@@ -1,6 +1,6 @@
 # Source Han Sans / Noto Sans CJK that defaults to Traditional Chinese (TWHK) 
 
-A set of customized Multilingual OpenType/CFF files of Adobe's Source Han Sans (思源黑體) typeface [1], also released by Google with a different name "Noto Sans CJK".
+A set of customized Multilingual OpenType/CFF files of Adobe's Source Han Sans (思源黑體) typeface [1], also released by Google with a different name "Noto Sans CJK" [2].
 
 There are several favors of the typeface, and their differences are well documented at http://sourceforge.net/adobe/source-han-sans/wiki/Home/.
 
