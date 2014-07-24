@@ -1,0 +1,48 @@
+cd ExtraLight
+call makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf ../FontMenuNameDB.TWHKDefault -r -nS -cs 2 -ch ../UniSourceHanSansTWHK-UTF32-H -ci ../SourceHanSans_TWHK_sequences.txt
+sfntedit -x GSUB=GSUB.bin OTC/SourceHanSansTC-ExtraLight.otf
+sfntedit -a GSUB=GSUB.bin SourceHanSans-ExtraLight.otf
+sfntedit -f SourceHanSans-ExtraLight.otf
+cd ..
+
+cd Light
+call makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf ../FontMenuNameDB.TWHKDefault -r -nS -cs 2 -ch ../UniSourceHanSansTWHK-UTF32-H -ci ../SourceHanSans_TWHK_sequences.txt
+sfntedit -x GSUB=GSUB.bin OTC/SourceHanSansTC-Light.otf
+sfntedit -a GSUB=GSUB.bin SourceHanSans-Light.otf
+sfntedit -f SourceHanSans-Light.otf
+cd ..
+
+cd Normal
+call makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf ../FontMenuNameDB.TWHKDefault -r -nS -cs 2 -ch ../UniSourceHanSansTWHK-UTF32-H -ci ../SourceHanSans_TWHK_sequences.txt
+sfntedit -x GSUB=GSUB.bin OTC/SourceHanSansTC-Normal.otf
+sfntedit -a GSUB=GSUB.bin SourceHanSans-Normal.otf
+sfntedit -f SourceHanSans-Normal.otf
+cd ..
+
+cd Regular
+call makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf ../FontMenuNameDB.TWHKDefault -r -nS -cs 2 -ch ../UniSourceHanSansTWHK-UTF32-H -ci ../SourceHanSans_TWHK_sequences.txt
+sfntedit -x GSUB=GSUB.bin OTC/SourceHanSansTC-Regular.otf
+sfntedit -a GSUB=GSUB.bin SourceHanSans-Regular.otf
+sfntedit -f SourceHanSans-Regular.otf
+cd ..
+
+cd Medium
+call makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf ../FontMenuNameDB.TWHKDefault -r -nS -cs 2 -ch ../UniSourceHanSansTWHK-UTF32-H -ci ../SourceHanSans_TWHK_sequences.txt
+sfntedit -x GSUB=GSUB.bin OTC/SourceHanSansTC-Medium.otf
+sfntedit -a GSUB=GSUB.bin SourceHanSans-Medium.otf
+sfntedit -f SourceHanSans-Medium.otf
+cd ..
+
+cd Bold
+call makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf ../FontMenuNameDB.TWHKDefault -r -nS -cs 2 -ch ../UniSourceHanSansTWHK-UTF32-H -ci ../SourceHanSans_TWHK_sequences.txt
+sfntedit -x GSUB=GSUB.bin OTC/SourceHanSansTC-Bold.otf
+sfntedit -a GSUB=GSUB.bin SourceHanSans-Bold.otf
+sfntedit -f SourceHanSans-Bold.otf
+cd ..
+
+cd Heavy
+call makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf ../FontMenuNameDB.TWHKDefault -r -nS -cs 2 -ch ../UniSourceHanSansTWHK-UTF32-H -ci ../SourceHanSans_TWHK_sequences.txt
+sfntedit -x GSUB=GSUB.bin OTC/SourceHanSansTC-Heavy.otf
+sfntedit -a GSUB=GSUB.bin SourceHanSans-Heavy.otf
+sfntedit -f SourceHanSans-Heavy.otf
+cd ..
